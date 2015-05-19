@@ -47,5 +47,4 @@ puts "There are #{qs} Q's"
 
 #binding.pry
 y = prufrock_letters.sort_by{|e,g|-g}.to_h
-#binding.pry
 puts "There are #{y.first(5)}"
